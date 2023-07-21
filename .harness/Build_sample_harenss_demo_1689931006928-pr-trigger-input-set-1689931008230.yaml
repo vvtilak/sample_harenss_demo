@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sample_harenss_demo_1689931006928-pr-trigger-input-set
+  identifier: Build_sample_harenss_demo_1689931006928prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sample_harenss_demo_1689931006928
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
